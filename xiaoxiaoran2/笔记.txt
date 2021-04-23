@@ -1,0 +1,46 @@
+字符串('xiao')   str
+整型(1,2,32)    int
+浮点型(1.1)    float
+布尔型(ture,false)
+
+convert转换  during在..期间  range范围  integer整型  sequence序列  include包含 exclude不包含
+list 列表 dict 字典   reverse反向
+set  列表 function 函数
+built-in module 内置模块  value  值 steam  流  default  默认的
+defined   count计数  strip去除空格  invalid  无效的  character 字符
+format 格式化  digit 数字
+
+\n 换行
+\t tab
+\r 回车   打印头回到行首,没有\r直接覆盖
+\* \**  ''''相套   print(' \*'xaio'\* ')
+
+
+赋值运算符
+   =   后面的给前面的
+
+num += 5   num = num + 5
+-=  *=  /=  
+
+a=8  b=2 
+a ** b   8*8   a的b次方
+a // b   8/2   整除
+a%b 取余
+
+
+==  !=  <=  >=
+
+and &与  or |或  not ~非  
+^异或(相同0,不同1)
+<<   左移  m<<n m*2的n次方
+>>   右移  m>>n m/2的n次方
+
+0b 2  0o 8 0x 16进制
+运算优先级
+
+
+
+
+
+
+

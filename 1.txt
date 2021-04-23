@@ -1,8 +1,26 @@
-111111111111
-222222222222
-ffffffft
 
-rt
-fddffddf
-fdgdf
-f
+肖萧然最秀...
+
+肖萧然最秀...
+from win32com import client
+import os
+
+word = client.gencache.EnsureDispatch('Word.Application')
+word.Visible = 0
+word.DisplayAlerts = 0
+doc = word.Documents.Add()
+range1 = doc.Range(0,0)
+range1.InsertAfter("1\n2\n")
+range1.InsertAfter("3\n4\n")
+range1.InsertBefore("5\n6\n")
+range1.InsertBefore("7\n8\n")
+
+cpath = os.path.dirname(__file__)
+doc.SaveAs(cpath + '\\test.docx')
+
+doc.Close()
+word.Quit()
+
+
+
+
