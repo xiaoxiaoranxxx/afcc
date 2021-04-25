@@ -5,7 +5,7 @@
 
 目录结构
 ========
-afcc
+AFCC
   + .vscode
     + launch.json
     + setting.json
