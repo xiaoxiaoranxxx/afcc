@@ -5,7 +5,20 @@
 
 目录结构
 ========
-+ afcc
+afcc
   + .vscode
     + launch.json
-  + ...累了....
+    + setting.json
+  + xiaoxiaoran1 *null*
+  + xiaoxiaoran2 *学习笔记*
+    + 1-1print.py
+  + xiaoxiaoran3 *收集的画图py*
+  + xiaoxiaoran4  *虚拟环境*
+    + .vscode
+    + pyVenvTest
+    + xiaoxiaoran1 *py->mysql*
+  + xiaoxiaoran5  *爬虫笔记*
+  + 1.txt
+  + oppo.csv
+ 
+  
