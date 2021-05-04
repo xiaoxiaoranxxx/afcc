@@ -1,3 +1,5 @@
+# coding=gbk
+
 from turtle import *
 
 up()

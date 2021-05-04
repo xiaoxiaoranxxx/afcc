@@ -13,7 +13,7 @@ for i in range(2):
     turtle.forward(200)
     turtle.right(90)
 turtle.end_fill()
- 
+   
 turtle.up()
 turtle.goto(-170, 145)
 turtle.down()
