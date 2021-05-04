@@ -1,17 +1,10 @@
-import turtle as t
-
-import time
-
-#太阳花
-t.color("red", "yellow")
-
-t.speed(0)
-
-t.begin_fill()
-
-for _ in range(50):
-    t.forward(200)
-    t.left(170)
-    t.end_fill()
-    time.sleep(0.1)
-t.done()
+from turtle import *
+colors = ['red', 'purple', 'blue', 'green', 'yellow', 'orange']
+speed(0)
+for x in range(360):
+    pencolor(colors[x % 6])
+    width(x / 100 + 1)
+    forward(x)
+    #left(91)
+    left(59)
+done()

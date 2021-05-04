@@ -9,7 +9,7 @@ begin_fill()
 fillcolor("red")
 pencolor("red")
 for i in range(2):
-    forward(280)
+    forward(300)
     right(90)
     forward(200)
     right(90)
@@ -18,6 +18,8 @@ end_fill()
 def xiu(x1, x2, y1=20):
     up()
     goto(x1, x2)
+    if(x1!=-170):
+        setheading(12)
     down()
     begin_fill()
     fillcolor("yellow")
