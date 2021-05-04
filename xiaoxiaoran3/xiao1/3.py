@@ -1,3 +1,4 @@
+# 中国结
 import turtle
 turtle.screensize(600,800)
 turtle.pensize(10)

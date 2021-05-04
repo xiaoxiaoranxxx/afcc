@@ -27,11 +27,9 @@ xiaoxiaoran2 &nbsp;*#学习笔记*
 
 xiaoxiaoran3 &nbsp;*#收集的画图py*
 ========
-+ 丘比特一箭穿心.py
-+ 贪吃蛇.py
-+ 小猪佩奇.py
-+ 蜘蛛侠.py
-+ xiao.py
++ >xiao1
++ >xiao2
++ xiao.txt
 
 xiaoxiaoran4  &nbsp;*#虚拟环境*
 ======
