@@ -1,0 +1,103 @@
+
+        https://blog.csdn.net/qq_40181592/article/details/86770960
+
+
+
+
+
+1）画布(canvas)
+
+画布就是turtle为我们展开用于绘图区域，我们可以设置它的大小和初始位置。
+
+设置画布大小
+
+turtle.screensize(canvwidth=None,canvheight=None,bg=None)，参数分别为画布的宽(单位像素),高,背景颜色。
+
+ 
+
+如：
+
+turtle.screensize(800,600,"green")
+
+turtle.screensize()#返回默认大小(400,300)
+
+turtle.setup(width=0.5,height=0.75,startx=None,starty=None）           参数：width,height:输入宽和高为整数时,表示像素;为小数时,表示占据                                                                                                                                        电脑屏幕的比例，(startx,starty):这一坐标表示矩形窗口左上角顶点的位置,如果为空,则                                                                                                                窗口位于屏幕中心。
+
+ 
+
+如：
+
+turtle.setup(width=0.6,height=0.6)
+
+turtle.setup(width=800,height=800,startx=100,starty=100)
+
+ 
+
+（2）画笔
+
+ 
+
+i)画笔的状态
+
+ 
+
+在画布上，默认有一个坐标原点为画布中心的坐标轴，坐标原点上有一只面朝x轴正方向小乌龟。
+这里我们描述小乌龟时使用了两个词语：坐标原点(位置)，面朝x轴正方向(方向)，turtle绘图中，就是使用位置方向描述小乌龟(画笔)的状态。
+
+ 
+
+ii)画笔的属性
+
+画笔(画笔的属性，颜色、画线的宽度等)
+
+turtle.pensize()：                   设置画笔的宽度；
+
+turtle.pencolor()：                  没有参数传入，返回当前画笔颜色，传入参数设置画笔颜色，可以是字符串如"green","red",也可以是RGB3元组。
+
+turtle.speed(speed)：            设置画笔移动速度，画笔绘制的速度范围[0,10]整数，数字越大越快。
+
+ 
+
+(3)绘图窗口的原点(0,0)在正中间。默认情况下，海龟向正右方移动。
+
+ 
+
+(4)操纵海龟绘图有着许多的命令,这些命令可以划分为两种:  一种为运动命令，一种为画笔控制命令
+
+ 
+
+i)运动命令:
+
+forward(d)                            向前移动距离d代表距离
+
+backward(d)                         向后移动距离d代表距离
+
+right(degree)                        向右转动多少度
+
+left(degree)                          向左转动多少度
+
+goto(x,y)                              将画笔移动到坐标为(x,y)的位置
+
+stamp()                                绘制当前图形
+
+speed(speed)                      画笔绘制的速度范围[0,10]整数
+
+ 
+
+ii)画笔控制命令:
+
+down()                                 画笔落下，移动时绘制图形
+
+up()                                     画笔抬起，移动时不绘制图形
+
+setheading(degree)            海龟（turtle）朝向，degree代表角度
+
+reset()                                 恢复所有设置
+
+pensize(width)                    画笔的宽度
+
+pencolor(colorstring)          画笔的颜色
+
+fillcolor(colorstring)             绘制图形的填充颜色
+
+circle(radius,extent)            绘制一个圆形，其中radius为半径，extent为度数，例如若extent为120，则画一个三分之一圆；
