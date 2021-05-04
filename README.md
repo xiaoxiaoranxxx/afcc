@@ -54,4 +54,4 @@ xiaoxiaoran5  &nbsp;*#爬虫笔记*
 <img src="https://i0.hdslb.com/bfs/article/2e2c7545cdea61a26fd5ef58158e4a4781eab3ad.jpg@1320w_2110h.webp" width="100%" height="100%">
 
 
-*学习的课程来自于b站的千峰教育,感谢千峰教育让我成长...*
+*学习的课程来自于千峰教育,感谢千峰教育让我成长...*
