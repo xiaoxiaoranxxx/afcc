@@ -88,7 +88,7 @@ def find_address_from_GPS(GPS):
 
 
 if __name__ == '__main__':
-    GPS_info = find_GPS_image(pic_path='E:/杂项/photo/kali.png')
+    GPS_info = find_GPS_image(pic_path='E:/下载集/QQ/MobileFile/转专业申请书.jpg')
     address = find_address_from_GPS(GPS=GPS_info)
     print("拍摄时间：" + GPS_info.get("date_information"))
     print('照片拍摄地址:' + str(address))
