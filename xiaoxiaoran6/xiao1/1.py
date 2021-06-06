@@ -5,7 +5,8 @@
 
 
 # https://www.cnblogs.com/leejack/p/9189796.html
-
+# https://blog.csdn.net/LiuGeFangQie/article/details/88144587
+# https://www.cnblogs.com/diony/archive/2010/12/16/1908499.html
 
 # 字符匹配
 # 在正则表达式中，如果直接给出字符，就是精确匹配。
@@ -46,6 +47,15 @@
 # $表示行的结束，\d$表示必须以数字结束。
 
 
+# re.I	使匹配对大小写不敏感
+# re.L	做本地化识别（locale-aware）匹配
+# re.M	多行匹配，影响 ^ 和 $
+# re.S	使 . 匹配包括换行在内的所有字符
+# re.U	根据Unicode字符集解析字符。这个标志影响 \w, \W, \b, \B.
+# re.X	该标志通过给予你更灵活的格式以便你将正则表达式写得更易于理解。
+
+
+
 import re
 
 str = "The rain i2389rydf fbwsgdy82ny723xt78 3xn2zjiug23uy8t2g3r2 3ur23vuysayeqwasdawr23qwertyuusdfghjxn Spain"
@@ -67,15 +77,34 @@ x = re.search(r"\bS\w+", str)
 
 # match()方法判断是否匹配，如果匹配成功，返回一个Match对象，否则返回None。
 result = re.match(r'\d{3,4}\-\d{3,8}$', '020-12345')
-# print(result.string)
+result = re.match(r'^(\d{3,4})\-(\d{3,8})$', '020-12345')
+# print(result.group(1))  # 匹配的第一个小括号的内容，即第一个匹配的子串
+# print(result.group())
+
+t = '09:05:30'
+m = re.match(
+    r'^(0[0-9]|1[0-9]|2[0-3]|[0-9])\:([0-5]?[0-9])\:([0-5]?[0-9])$', t)
+# print(m.groups())
 
 email = 'lee.jack3@netec.com.cn'
 pattern = r'^[a-z]{1,}\.[a-z]+\d*@netec.com.cn$'
 result = re.match(pattern, email)
 
 str = "32 ddd ewe e       e"
-str = "3;2 dd,d e,w,e ,e     \  e"
+str = "3;;;;2 dd,d e,w,e ,e       e"
 pattern = r'[\s\,\;]+'
-result =re.split(pattern,str)  #无论多少个空格都可以正常分割
+result = re.split(pattern, str)  # 无论多少个空格都可以正常分割
 
-print(result)
+
+result = re.subn('[ae]', 'X', 'abcdefghi')
+# print(result)
+
+# 去掉div和b标签
+s = "<div class='a'>正则<span>表达式</span><b style='color:red'>练习</b></div>"
+ret = re.sub(r'(</?div.*?>|</?b.*?>)', '', s)
+ret = re.sub(r'(</?div.*?>|</?b.*?>|</?span>)', '', s)
+# print(ret)
+
+#找出每行中只有3个数字的字符串 
+ret = re.findall(r'^\D*\d\D*\d\D*\d\D*$' , s ,re.M)
+

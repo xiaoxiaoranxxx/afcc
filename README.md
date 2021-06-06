@@ -7,10 +7,10 @@
 
 # Directory Structure -->AFCC
  
-xiaoxiaoran1 *收集大佬作品*
+xiaoxiaoran1 *#收集大佬作品*
 =========
 + >xiao1
-  + 1.py *//经纬度*
+  + 1.py *#经纬度*
   
 xiaoxiaoran2 &nbsp;*#学习笔记*
 ===========
@@ -37,7 +37,7 @@ xiaoxiaoran2 &nbsp;*#学习笔记*
 + 1-21模块.py
 + 1-22进程线程.py
 
-xiaoxiaoran3 &nbsp;*#收集的画图py*
+xiaoxiaoran3 &nbsp;*#收集的画图&游戏*
 ========
 + >xiao1
 + >xiao2
@@ -47,7 +47,7 @@ xiaoxiaoran4  &nbsp;*#虚拟环境*
 ======
 + .vscode
 + pyVenvTest
-+ xiaoxiaoran1 *py->mysql*
++ xiaoxiaoran1 *#py->mysql*
 
 xiaoxiaoran5  &nbsp;*#爬虫笔记*
 ======= 
@@ -61,7 +61,12 @@ xiaoxiaoran5  &nbsp;*#爬虫笔记*
 + 6-f1.py
 + 6-f2.py
 + 6-f3.py
- 
+
+xiaoxiaoran6 &nbsp; *#进阶学习*
+=========
++ xiao1 
+  + 1.py *#正则表达式* 
+
 
 <img src="https://i0.hdslb.com/bfs/article/2e2c7545cdea61a26fd5ef58158e4a4781eab3ad.jpg@1320w_2110h.webp" width="100%" height="100%">
 
