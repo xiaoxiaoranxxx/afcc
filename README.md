@@ -67,6 +67,8 @@ xiaoxiaoran6 &nbsp; *#进阶学习*
 + xiao1 
   + 1.py *#正则表达式* 
   + 2.py *#不吉利数字*
+  + 3.py *#递减三角*
+  + 4.py *#截取整数*
 
 
 <img src="https://i0.hdslb.com/bfs/article/2e2c7545cdea61a26fd5ef58158e4a4781eab3ad.jpg@1320w_2110h.webp" width="100%" height="100%">
