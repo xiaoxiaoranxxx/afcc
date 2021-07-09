@@ -18,6 +18,6 @@ for i in range(len(ll)):
 t = 0
 for i in range(len(y)):
     # print('{}'.format(y[i]), end='')
-    t += pow(10, len(y)-i-1)*y[i]
+    t += pow(10, i)*y[i]
 
 print(t)
