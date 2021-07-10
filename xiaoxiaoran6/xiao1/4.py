@@ -10,14 +10,16 @@ def numstr(value):
 y = []
 x = int(input())
 ll = numstr(x)
+ll.reverse()
 for i in range(len(ll)):
     if i % 2 != 0:
         # print(ll[i], end="")
         y.append(ll[i])
-
-t = 0
+# t = 0
+y.reverse()
 for i in range(len(y)):
-    # print('{}'.format(y[i]), end='')
-    t += pow(10, len(y)-i-1)*y[i]
+    print('{}'.format(y[i]), end='')
 
-print(t)
+#     t += pow(10, len(y)-i-1)*y[i]
+
+# print(t)
