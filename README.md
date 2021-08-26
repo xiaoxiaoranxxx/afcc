@@ -7,12 +7,12 @@
 
 # Directory Structure -->AFCC
  
-xiaoxiaoran1 *#收集大佬作品*
+xiaoxiaoran1 *#xiuxiu作品*
 =========
 xiaoxiaoran2 &nbsp;*#学习笔记*
 ===========
 
-xiaoxiaoran3 &nbsp;*#收集的画图&游戏*
+xiaoxiaoran3 &nbsp;*#画图&游戏*
 ========
 
 xiaoxiaoran4  &nbsp;*#虚拟环境*
