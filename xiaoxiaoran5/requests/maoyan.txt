@@ -1,0 +1,10 @@
+https://p0.meituan.net/movie/15f1ac49b6d1ff7b71207672993ed6901536456.jpg	 https://maoyan.com/films/46818	怦然心动	 玛德琳·卡罗尔,卡兰·麦克奥利菲,艾丹•奎因	上映时间：2010-07-26(美国)	8.9
+https://p0.meituan.net/movie/b41795c4a88479137e40ebdc3d7dc040238291.jpg	 https://maoyan.com/films/1633	阿甘正传	 汤姆·汉克斯,罗宾·怀特,加里·西尼斯	上映时间：1994-07-06(美国)	9.4
+https://p0.meituan.net/movie/30b20139e68c46d02e0893277d633b701292458.jpg	 https://maoyan.com/films/1212	千与千寻	 柊瑠美,周冬雨,入野自由	上映时间：2019-06-21	9.3
+https://p0.meituan.net/moviemachine/94138dc0290a74b35786b6e3b8ece8607940668.jpg	 https://maoyan.com/films/78341	星际穿越	 马修·麦康纳,安妮·海瑟薇,杰西卡·查斯坦	上映时间：2014-11-12	9.3
+https://p0.meituan.net/movie/59c05effc4755c627901fb7e044d071d851055.jpg	 https://maoyan.com/films/1304	楚门的世界	 金·凯瑞,劳拉·琳妮,诺亚·艾默里奇	上映时间：1998(罗马尼亚)	8.9
+https://p0.meituan.net/moviemachine/eb5e33480a3d3b0f813673a33eb556381148211.jpg	 https://maoyan.com/films/70976	触不可及	 弗朗索瓦·克鲁塞,奥玛·希,安娜·勒尼	上映时间：2011-11-02(法国)	9.1
+https://p0.meituan.net/movie/b0d986a8bf89278afbb19f6abaef70f31206570.jpg	 https://maoyan.com/films/3667	辛德勒的名单	 连姆·尼森,拉尔夫·费因斯,本·金斯利	上映时间：1993-11-30(美国)	9.2
+https://p0.meituan.net/movie/f433a705dd26d96e95ba6582ddccf5ad1159253.jpg	 https://maoyan.com/films/342068	寻梦环游记	 安东尼·冈萨雷斯,本杰明·布拉特,盖尔·加西亚·贝纳尔	上映时间：2017-11-24	9.6
+https://p0.meituan.net/moviemachine/8503c98fa2a02df648f6a59448c4c99078837.jpg	 https://maoyan.com/films/1319	情书	 中山美穗,丰川悦司,酒井美纪	上映时间：1999-03-01	8.8
+https://p0.meituan.net/movie/aeb864fa21d578d845b9cefc056e40cb2874891.jpg	 https://maoyan.com/films/588362	摔跤吧！爸爸	 阿米尔·汗,沙克希·坦沃,法缇玛·萨那·纱卡	上映时间：2017-05-05	9.8
