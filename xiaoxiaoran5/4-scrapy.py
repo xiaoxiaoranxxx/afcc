@@ -1,5 +1,11 @@
 import scrapy
 
+# scrapy
+# sudo apt install python3-scrapy
+# scrapy startproject name
+# scrapy genspider newname www.name.com
+# scrapy crawl newname
+
 class QuotoSpider(scrapy.Spider):
     name = 'quote'
     start_urls = ['http://quotes.toscrape.com/']

@@ -1,9 +1,5 @@
 import requests
 
-r = requests.get('http://httpbin.org/get')
-print(r.status_code)
-print(r.reason)
-#print(r.text)
 
 r = requests.post('http://httpbin.org/post',data={'a':'1'})
 #print(r.json())
