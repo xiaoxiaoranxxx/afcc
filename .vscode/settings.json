@@ -1,7 +1,8 @@
 {
     "python.pythonPath": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python36\\python.exe",
     "python.formatting.provider": "autopep8",
-    "jupyter.jupyterServerType": "local"
+    "jupyter.jupyterServerType": "local",
+    "C_Cpp.default.compilerPath": "c:\\Users\\Administrator\\.vscode\\extensions\\bartmanabyss.amiga-debug-1.0.0\\bin\\opt\\bin\\m68k-amiga-elf-gcc.exe"
    
 
 }
