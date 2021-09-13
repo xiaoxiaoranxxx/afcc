@@ -1,0 +1,24 @@
+{
+  "AAencode":"http://utf-8.jp/public/aaencode.html\nhttps://www.qtool.net/decode",
+  "XXencode":"http://web.chacuo.net/charsetxxencode",
+  "JJencode":"http://www.nicetool.net/app/jjencode.html\nhttps://www.qtool.net/decode",
+  "UUencode":"http://web.chacuo.net/charsetuuencode",
+  "敲击码":"http://ctf.ssleye.com/tapcode.html",
+  "JSfuck":"https://www.bugku.com/tools/jsfuck/",
+  "Brainfuck/Ook!":"https://www.splitbrain.org/services/ook",
+  "猪圈密码":"http://ctf.ssleye.com/pigpen.html",
+  "在线网站":"http://ctf.ssleye.com/\nhttps://tool.lu/",
+  "Rabbit":"http://www.jsons.cn/rabbitencrypt/\nhttp://tools.jb51.net/password/rabbit_encode\nhttps://www.sojson.com/encrypt_rabbit.html",
+  "圣堂武士密码":"https://blog.csdn.net/zmx2473162621/article/details/103949134/",
+  "电报码":"https://www.qqxiuzi.cn/bianma/dianbao.php",
+  "Quoted-printable":"http://web.chacuo.net/charsetquotedprintable/",
+  "中文加密":"https://www.qqxiuzi.cn/bianma/wenbenjiami.php",
+  "ADFGX":"http://www.practicalcryptography.com/ciphers/adfgx-cipher/",
+  "仿射密码":"https://www.boxentriq.com/code-breaking/affine-cipher",
+  "暴力破解替换":"https://quipqiup.com/",
+  "RSA大数分解":"http://www.factordb.com/index.php",
+  "与佛论禅":"http://www.keyfc.net/bbs/tools/tudoucode.aspx",
+  "ROT":"https://www.qqxiuzi.cn/bianma/rot5-13-18-47.php"
+
+
+}
