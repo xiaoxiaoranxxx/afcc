@@ -1,8 +1,13 @@
+```
 pip install pyinstaller
+```
 
+``` python
 pyinstaller -F 1.py   转换
 pyinstaller -F -i photo.ico 1.py  加图
+```
 
+```
 usage: pyinstaller [-h] [-v] [-D] [-F] [--specpath DIR] [-n NAME]
                    [--add-data <SRC;DEST or SRC:DEST>]
                    [--add-binary <SRC;DEST or SRC:DEST>] [-p DIR]
@@ -250,3 +255,4 @@ Rarely used special options:
                         situations where e.g. a supervisor process signals
                         both the bootloader and child (e.g. via a process
                         group) to avoid signalling the child twice.
+```

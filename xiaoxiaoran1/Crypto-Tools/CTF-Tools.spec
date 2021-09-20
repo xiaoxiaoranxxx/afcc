@@ -4,11 +4,12 @@ block_cipher = None
 
 
 a = Analysis(['CTF-Tools.py'],
-             pathex=['D:\\code\\Python37\\obj\\CTF-Tools'],
+             pathex=['C:\\Users\\Administrator\\afcc\\xiaoxiaoran1\\Crypto-Tools'],
              binaries=[],
              datas=[],
              hiddenimports=[],
              hookspath=[],
+             hooksconfig={},
              runtime_hooks=[],
              excludes=[],
              win_no_prefer_redirects=False,
@@ -17,11 +18,12 @@ a = Analysis(['CTF-Tools.py'],
              noarchive=False)
 pyz = PYZ(a.pure, a.zipped_data,
              cipher=block_cipher)
+
 exe = EXE(pyz,
           a.scripts,
           a.binaries,
           a.zipfiles,
-          a.datas,
+          a.datas,  
           [],
           name='CTF-Tools',
           debug=False,
@@ -30,4 +32,8 @@ exe = EXE(pyz,
           upx=True,
           upx_exclude=[],
           runtime_tmpdir=None,
-          console=False , icon='logo.ico')
+          console=True,
+          disable_windowed_traceback=False,
+          target_arch=None,
+          codesign_identity=None,
+          entitlements_file=None , icon='logo.ico')
