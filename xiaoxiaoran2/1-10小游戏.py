@@ -37,7 +37,7 @@ while True:
 print('')
 print('正在进入游戏...')
 print('-------===>')
-print('欢迎{}来到王者荣耀,当前金币为{}'.format(role, coin))
+print('欢迎{}来到xxxx,当前金币为{}'.format(role, coin))
 print('')
 while True:
     choice = int(input('\n1.进入商店\n2.皇家赌场\n3.大杀特杀\n4.查看财产\n5.退出游戏\n请选择:'))
@@ -72,7 +72,7 @@ while True:
             print('输入错误!')
     elif choice == 2:
         print('$'*30)
-        print('\t欢迎来到王者荣耀皇家赌场')
+        print('\t欢迎来到荣耀皇家赌场')
         print('$'*30)
         money = coin
         answer = input('是否进入游戏(y/n)?')

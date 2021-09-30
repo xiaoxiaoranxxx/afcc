@@ -1,21 +1,24 @@
-# coding=gbk
 
-from turtle import *
 
-up()
-goto(-200, 200)
-down()
-begin_fill()
+from turtle import *  #导入画图模块
+
+up()  #抬笔
+
+goto(-200, 200) #到画长方形的起点
+down()  #落笔
+
+begin_fill()  # 开启颜色填充
 fillcolor("red")
 pencolor("red")
-for i in range(2):
+
+for i in range(2):  # 画正方形
     forward(300)
     right(90)
     forward(200)
-    right(90)
-end_fill()
+    right(90) 
+end_fill() # 结束红色填充
 
-def xiu(x1, x2, y1=20):
+def xiu(x1, x2, y1=20):  # 画五角星
     up()
     goto(x1, x2)
     if(x1!=-170):
