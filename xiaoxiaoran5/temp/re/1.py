@@ -108,7 +108,7 @@ result = re.subn('[ae]', 'X', 'abcdefghi')
 s = "<div class='a'>正则<span>表达式</span><b style='color:red'>练习</b></div>"
 ret = re.sub(r'(</?div.*?>|</?b.*?>)', '', s)
 ret = re.sub(r'(</?div.*?>|</?b.*?>|</?span>)', '', s)
-# print(ret)
+print(ret)
 
 #找出每行中只有3个数字的字符串 
 ret = re.findall(r'^\D*\d\D*\d\D*\d\D*$' , s ,re.M)
