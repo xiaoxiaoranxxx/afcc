@@ -1,8 +1,8 @@
-![xiao](https://img-blog.csdnimg.cn/20210518211707779.png#pic_center)
+
 
 # Welcome to Xiao Xiaoran's Python Code library
 
-<img src="https://xintp.betcsm.com/c2020/08/27/4qusr1vsvlc.jpg" width="100%" height="100%">
+
 
 
 # Directory Structure -->AFCC
