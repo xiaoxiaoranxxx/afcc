@@ -1,21 +1,14 @@
 import re
 
 str = '''
-Switch#conf t
-Switch(config)#vlan 2
-Switch(config‐vlan)#exit
-Switch(config)#vlan 3
-Switch(config‐vlan)#exit
-Switch(config)#interface fa 0/1
-Switch(config‐if)#switchport access vlan 2
-Switch(config‐if)#exit
-Switch(config)#inter fa 0/2
-Switch(config‐if)#switchport access vlan 3
-Switch(config‐if)#exit
-Switch(config)#inter fa 0/24
-Switch(config‐if)#switch mode trunk
-Switch(config‐if)#end
-Switch#show vlan
+R#conf t
+Router(config)#inter fa 1/0
+Router(config‐if)#ip address 192.168.2.1 255.255.255.0
+Router(config‐if)#no shutdown
+Router(config‐if)#exit
+Router(config)#inter serial 2/0
+Router(config‐if)#ip address 192.168.3.2 255.255.255.0
+Router(config‐if)#end
 '''
 
 for i in str.strip().split("\n"):
